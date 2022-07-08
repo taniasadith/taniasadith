@@ -6,13 +6,20 @@
     display: flex;
 }
 
+.h1{
+    font-family: Outfit,serif;
+}
+.p{
+
+}
 .container__cover{
     width: 100%;
     height: 800px;
-    background-color: aliceblue;
+    background-color: #f0f1f4;
     background-position: right;
     background-repeat: no-repeat;
     padding: 40px;
+
 }
 
 .cover{
@@ -31,11 +38,13 @@
 .container__cover .text h1{
     font-size: 36px;
     font-weight: 600;
+    font-family: Outfit,serif;
 }
 
 .container__cover .text p{
     font-size: 18px;
     margin-top: 40px;
+    font-family: Hepta Slab,serif;
 }
 
 .container__cover .text input{
@@ -86,7 +95,7 @@
 @media screen and (max-width: 1020px){
 
     .container__cover{
-        background-color: aliceblue;
+        background-color: #f0f1f4;
     }
 
     .container__cover .svg img{
@@ -107,4 +116,55 @@
 }
 .derechos-reservados{
     padding-right: 30px;
+}
+
+.Logos{
+    display: flex;
+}
+
+.Seccion2{
+    font-family: Hepta Slab,serif;
+}
+
+.Seccion2-tittle{
+    font-family: Outfit,serif;
+}
+
+.About-the-app{
+    width: 100%;
+    height: 800px;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+
+.container-cards{
+    display: flex;
+}
+
+.card{
+    margin-right: 1rem;
+}
+
+/*-------------------Nuestras Alianzas---------------------*/
+div.Alianzas-title{
+    box-sizing: border-box;
+}
+h2.Nuestras-Alianzas{
+    padding-top: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+section.Franja-Alianzas {
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(#4e2b23,#cfc2a0);
+    box-sizing: border-box;
+}
+div.Alianzas-Contenido{
+    padding-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
 }
